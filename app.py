@@ -24,12 +24,14 @@ def run():
     image = Image.open('logo1.PNG')
     image_hospital = Image.open('house.PNG')
     
-    primary_color = "#FFFD80"
+    #primary_color = "#FFFD80"
     
-    if primary_color != "#000000":
-        st.markdown(f"<style> body{{ background-color: {primary_color};}}</style>",unsafe_allow_html=True)
     
-    secondary_color = "#262730"
+    #if primary_color != "#000000":
+        #st.markdown(f"<style> body{{ background-color: {primary_color};}}</style>",unsafe_allow_html=True)
+    
+    #secondary_color = "#262730"
+    
     
     st.image(image,use_column_width=False)
 
